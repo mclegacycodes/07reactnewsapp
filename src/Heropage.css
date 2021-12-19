@@ -1,0 +1,13 @@
+.heropage{
+    background-image: url('https://images.unsplash.com/photo-1497717890674-baea2a497c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=831&q=80');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    
+}
+.blackbox{
+    background-color: rgba(0, 0, 0, 0.60);
+    height: 100vh;
+    padding: 20px 5%;
+}
