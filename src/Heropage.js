@@ -30,7 +30,7 @@ console.log(news)
 
                <div className='heronews'>
                    <div className='maintopic'>
-                    
+                     <HeroNews type="Hot News" title={news[0].title} author={news[0].author}/>
                    </div>
                    
                    <div className='sideTopic'> 
