@@ -5,7 +5,7 @@ const HeroNews = ({type,title,author}) => {
         <div>
             <h3>{type}</h3>
             <h1>{title}</h1>
-            <p>12 minutes ago <span>{author}</span></p>
+            <p> <span>{author}</span></p>
         </div>
     )
 }

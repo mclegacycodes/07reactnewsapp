@@ -4,10 +4,74 @@
     background-repeat: no-repeat;
     height: 100vh;
     color: white;
-    
+    box-sizing: border-box;
+   
 }
 .blackbox{
     background-color: rgba(0, 0, 0, 0.60);
     height: 100vh;
     padding: 20px 5%;
+}
+.heronews{
+    display: flex;
+    justify-content: space-between;
+    gap: 25%;
+    margin-top: 40px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.heronews p{
+    font-size: 16px;
+    color: #FFB041;
+}
+
+.maintopic{
+
+font-size: 24px;
+width: 60%;
+}
+
+
+.sidetopic{
+  
+width: 25%;
+display: flex;
+flex-direction: column;
+gap: 160px;
+}
+
+.sidetopic h1{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.hero-bottom{
+    margin-top: 60px;
+}
+.hero-bottom .hero-white-cover{
+    background-color: white;
+    color: black;
+}
+.hero-white-cover{
+    display: flex;
+    gap: 60px;
+    padding: 16px 20px;
+}
+.hero-white-cover img{
+    height: 70px;
+    display: inline;
+}
+.hero-white-cover h3{
+    display: inline;
+}
+.hero-white-cover div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.breakingNews{
+    background-color:#FFB041 ;
+    padding: 12px 16px;
 }
