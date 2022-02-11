@@ -28,6 +28,10 @@ const Heropage = () => {
        
     }, [])
 
+
+    if(news.length === 0) return <div style={{display : 'grid', placeItems : 'center',height : '100vh'}}>
+      <h1>Loading....</h1>
+    </div>
    
     return (
         <section className='heropage'>
